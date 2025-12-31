@@ -52,10 +52,12 @@ POST /players
   "player_name": "Stephen Curry",
   "position": "PG",
   "skill": "Shooting"
-} ```
+}
 
-###🔹 Update Player
+### 🔹 Update Player
 PUT /players/{id}
+
+**Body (JSON):**
 
 ```json
 {
@@ -64,10 +66,10 @@ PUT /players/{id}
   "skill": "Playmaking"
 }
 
-🔹 Delete Player
+### 🔹 Delete Player
 DELETE /players/{id}
 
-🧪 Testing
+### 🧪 Testing
 
 Seluruh endpoint telah diuji menggunakan Postman dengan hasil:
 
@@ -75,14 +77,14 @@ Request berhasil
 Response sesuai
 Data tersimpan dan ter-update di database
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Laravel
 MySQL
 Postman
 REST API (JSON)
 
-📦 Instalasi & Menjalankan Project
+### 📦 Instalasi & Menjalankan Project
 
 git clone <repository-url>
 cd player_api
@@ -92,7 +94,7 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 
-🎯 Tujuan Project
+### 🎯 Tujuan Project
 
 Project ini dibuat untuk:
 
