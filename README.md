@@ -55,8 +55,6 @@ POST /players
 }
 ```
 
----
-
 ### 🔹 Update Player
 PUT /players/{id}
 
@@ -69,7 +67,6 @@ PUT /players/{id}
   "skill": "Playmaking"
 }
 ```
----
 
 ### 🔹 Delete Player
 DELETE /players/{id}
