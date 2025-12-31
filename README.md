@@ -53,6 +53,7 @@ POST /players
   "position": "PG",
   "skill": "Shooting"
 }
+```
 
 ---
 
@@ -67,7 +68,7 @@ PUT /players/{id}
   "position": "SF",
   "skill": "Playmaking"
 }
-
+```
 ---
 
 ### 🔹 Delete Player
