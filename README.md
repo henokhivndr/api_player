@@ -54,6 +54,8 @@ POST /players
   "skill": "Shooting"
 }
 
+---
+
 ### 🔹 Update Player
 PUT /players/{id}
 
@@ -66,8 +68,12 @@ PUT /players/{id}
   "skill": "Playmaking"
 }
 
+---
+
 ### 🔹 Delete Player
 DELETE /players/{id}
+
+---
 
 ### 🧪 Testing
 
@@ -77,12 +83,16 @@ Request berhasil
 Response sesuai
 Data tersimpan dan ter-update di database
 
+---
+
 ### 🛠️ Tech Stack
 
 Laravel
 MySQL
 Postman
 REST API (JSON)
+
+---
 
 ### 📦 Instalasi & Menjalankan Project
 
@@ -93,6 +103,8 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
+
+---
 
 ### 🎯 Tujuan Project
 
