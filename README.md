@@ -77,30 +77,30 @@ DELETE /players/{id}
 
 Seluruh endpoint telah diuji menggunakan Postman dengan hasil:
 
-Request berhasil
-Response sesuai
-Data tersimpan dan ter-update di database
+- Request berhasil
+- Response sesuai
+- Data tersimpan dan ter-update di database
 
 ---
 
 ### 🛠️ Tech Stack
 
-Laravel
-MySQL
-Postman
-REST API (JSON)
+- Laravel
+- MySQL
+- Postman
+- REST API (JSON)
 
 ---
 
 ### 📦 Instalasi & Menjalankan Project
 
-git clone <repository-url>
-cd player_api
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
+- git clone <repository-url>
+- cd player_api
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
 
 ---
 
