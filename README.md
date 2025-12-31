@@ -52,11 +52,12 @@ POST /players
   "player_name": "Stephen Curry",
   "position": "PG",
   "skill": "Shooting"
-}
+} ```
 
-🔹 Update Player
+###🔹 Update Player
 PUT /players/{id}
 
+```json
 {
   "player_name": "LeBron James",
   "position": "SF",
