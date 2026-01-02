@@ -53,45 +53,58 @@ POST /players
   "position": "PG",
   "skill": "Shooting"
 }
+```
 
-🔹 Update Player
+### 🔹 Update Player
 PUT /players/{id}
 
+**Body (JSON):**
+
+```json
 {
   "player_name": "LeBron James",
   "position": "SF",
   "skill": "Playmaking"
 }
+```
 
-🔹 Delete Player
+### 🔹 Delete Player
 DELETE /players/{id}
 
-🧪 Testing
+---
+
+### 🧪 Testing
 
 Seluruh endpoint telah diuji menggunakan Postman dengan hasil:
 
-Request berhasil
-Response sesuai
-Data tersimpan dan ter-update di database
+- Request berhasil
+- Response sesuai
+- Data tersimpan dan ter-update di database
 
-🛠️ Tech Stack
+---
 
-Laravel
-MySQL
-Postman
-REST API (JSON)
+### 🛠️ Tech Stack
 
-📦 Instalasi & Menjalankan Project
+- Laravel
+- MySQL
+- Postman
+- REST API (JSON)
 
-git clone <repository-url>
-cd player_api
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
+---
 
-🎯 Tujuan Project
+### 📦 Instalasi & Menjalankan Project
+
+- git clone <repository-url>
+- cd player_api
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
+
+---
+
+### 🎯 Tujuan Project
 
 Project ini dibuat untuk:
 
